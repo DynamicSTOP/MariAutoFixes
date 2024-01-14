@@ -1,0 +1,27 @@
+module Base
+{
+    model TinCanGlassShards_Ground
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinCanGlassShards,
+    }
+
+    model TinCanGlassSand_Ground
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinCanGlassSand,
+    }
+
+    model TinCanGlassFixMix_Ground
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TinCanGlassFixMix,
+    }
+
+    model MagazineMariAutoFixesGround
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/MagazineMariAutoFixes,
+        scale = 0.4,
+    }
+}

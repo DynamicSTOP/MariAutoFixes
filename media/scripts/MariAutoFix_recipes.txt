@@ -1,0 +1,98 @@
+module Base
+{
+    recipe Crush And Pack Glasses
+    {
+        Glasses_Reading/Glasses_Normal=10,
+        TinCanEmpty,
+        keep [Recipe.GetItemTypes.Hammer],
+
+        Result:TinCanWithGlassShards,
+        OnCreate:MariRecipe.CheckGlassCut,
+        Time:120,
+        Sound:BreakGlassItem,
+        OnCanPerform:MariRecipe.OnCanPerform.NoBleeding,
+        Tooltip:Tooltip_Recipe_Crush_And_Pack_Bottle,
+    }
+
+    recipe Crush And Pack Wine Glasses
+    {
+        GlassWine=3,
+        TinCanEmpty,
+        keep [Recipe.GetItemTypes.Hammer],
+
+        Result:TinCanWithGlassShards,
+        OnCreate:MariRecipe.CheckGlassCut,
+        Time:80,
+        Sound:BreakGlassItem,
+        OnCanPerform:MariRecipe.OnCanPerform.NoBleeding,
+        Tooltip:Tooltip_Recipe_Crush_And_Pack_Bottle,
+    }
+
+
+    recipe Crush And Pack Glass
+    {
+        WhiskeyEmpty/GlassTumbler,
+        TinCanEmpty,
+        keep [Recipe.GetItemTypes.Hammer],
+
+        Result:TinCanWithGlassShards,
+        OnCreate:MariRecipe.CheckGlassCut,
+        Time:60,
+        Sound:BreakGlassItem,
+        OnCanPerform:MariRecipe.OnCanPerform.NoBleeding,
+        Tooltip:Tooltip_Recipe_Crush_And_Pack_Bottle,
+    }
+
+
+    recipe Pack Broken Glass
+    {
+        brokenglass_1_3/brokenglass_1_2/brokenglass_1_1/brokenglass_1_0,
+        TinCanEmpty=4,
+
+        Result:TinCanWithGlassShards=4,
+        OnCreate:MariRecipe.CheckGlassCut,
+        Time:80,
+        Sound:BreakGlassItem,
+        OnCanPerform:MariRecipe.OnCanPerform.NoBleeding,
+        Tooltip:Tooltip_Recipe_Pack_Broken_Glass,
+    }
+
+    recipe Unpack Broken Glass {
+        TinCanWithGlassShards=4,
+
+        Result:brokenglass_1_0,
+        OnCreate:MariRecipe.OnCreate.UnpackGlass,
+        Time:50,
+        Sound:BreakGlassItem,
+        OnCanPerform:MariRecipe.OnCanPerform.NoBleeding,
+        Tooltip:Tooltip_Recipe_Unpack_Broken_Glass,
+    }
+
+
+    recipe Crush Glass Shards {
+        TinCanWithGlassShards=1,
+        keep [Recipe.GetItemTypes.Sledgehammer],
+
+        NeedToBeLearn:true,
+        Result:TinCanWithGlassSand,
+        Time:100,
+        Sound:BreakGlassItem,
+        OnCanPerform:MariRecipe.OnCanPerform.NoBleeding,
+        OnCreate:MariRecipe.CheckGlassCut,
+        Tooltip:Tooltip_Recipe_Crush_Glass_Shards,
+    }
+
+    recipe Make Glass Fix Mix {
+        TinCanWithGlassSand=1,
+        Glue=4,
+        keep [Recipe.GetItemTypes.MortarPestle],
+
+        NeedToBeLearn:true,
+        Sound:SowSeeds,
+        Result:TinCanWithGlassFixMix,
+        Time:100,
+        OnCanPerform:MariRecipe.OnCanPerform.NoBleeding,
+    }
+
+
+}

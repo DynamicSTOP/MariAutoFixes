@@ -1,0 +1,30 @@
+Sandbox_EN = {
+  Sandbox_MariAutoFix = "Mari Auto Fix",
+
+  Sandbox_MariAutoFix_Evil = "Evil mode (recommended ON)",
+  Sandbox_MariAutoFix_Evil_tooltip = "Player could get injured while performing repairs or making items from this mod",
+  Sandbox_MariAutoFix_XP_Multiplier = "XP Multiplier",
+  Sandbox_MariAutoFix_XP_Multiplier_tooltip = "Multiplier of bonus XP for some repair actions<br>with 1 you get 1 xp point per 1 restored point of condition",
+  Sandbox_MariAutoFix_Glass_Repairable_Items = "Repairable Item Types",
+  Sandbox_MariAutoFix_Glass_Repairable_Items_tooltip = "Comma separated list of item types that will be allowed to repair<br>e.g. Windshield1;Windshield2;Windshield3;FrontWindow1;FrontWindow2;FrontWindow3;RearWindow1;RearWindow2;RearWindow3;RearWindshield1;RearWindshield2;RearWindshield3;",
+
+  Sandbox_MariAutoFix_Glass_Repairable_Experimental = "Experimental detection",
+  Sandbox_MariAutoFix_Glass_Repairable_Experimental_tooltip = "Should experimental options marked with (EXP) be enabled<br>This could be helpful if you have a lot of mods with custom vehicle parts and you don't want to search for those type names",
+  Sandbox_MariAutoFix_Glass_Repairable_Exp_IgnoreTypes = "(EXP) Ignore Types",
+  Sandbox_MariAutoFix_Glass_Repairable_Exp_IgnoreTypes_tooltip = "(EXP) opposite of 'Repairable Item Types'",
+  Sandbox_MariAutoFix_Glass_Exp_SearchPositive = "(EXP) Search Positive",
+  Sandbox_MariAutoFix_Glass_Exp_SearchPositive_tooltip = "(EXP) Comma separated list of strings to look for in ItemType name e.g. Windshield or SideWindow<br>If the type name contains it, the item will be allowed to repair unless it's in '(EXP) Ignore Types' or matches by one of '(EXP) Search Negative'",
+  Sandbox_MariAutoFix_Glass_Exp_SearchNegative = "(EXP) Search Negative",
+  Sandbox_MariAutoFix_Glass_Exp_SearchNegative_tooltip = "(EXP) Comma separated list of strings to ignore in ItemType e.g. Armor or Metal<br>If the type name contains it, the item won't be allowed to repair unless it's in 'Repairable Item Types'",
+
+
+  Sandbox_MariAutoFix_Glass_GlueMix_Restore_From = "Glue Mix Restore From",
+  Sandbox_MariAutoFix_Glass_GlueMix_Restore_From_tooltip = "Minimum condition of item on which GlueMix can be used.",
+  Sandbox_MariAutoFix_Glass_GlueMix_Restore_Max = "Glue Mix Restore To",
+  Sandbox_MariAutoFix_Glass_GlueMix_Restore_Max_tooltip = "Maximum condition to which GlueMix can repair.",
+  Sandbox_MariAutoFix_Glass_GlueMix_Restore_Step = "Glue Mix Restore Max Step",
+  Sandbox_MariAutoFix_Glass_GlueMix_Restore_Step_tooltip = "Max amount of condition you can restore at once",
+
+  Sandbox_MariAutoFix_Glass_Restore_Margin_Per_Skill = "Bonus margin per skill lvl",
+  Sandbox_MariAutoFix_Glass_Restore_Margin_Per_Skill_tooltip = "Additional condition per Mechanics level to restore from\to.<br>i.e. if value 1 and skill level 10 you can restore from -10 to 70 (assuming other settings are default)",
+}

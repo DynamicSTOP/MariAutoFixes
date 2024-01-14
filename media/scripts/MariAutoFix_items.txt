@@ -1,0 +1,41 @@
+module Base
+{
+
+    item TinCanWithGlassShards
+    {
+        DisplayCategory = Material,
+        Weight = 0.4,
+        Type = Normal,
+        DisplayName	= Tin Can Full Of Glass Shards,
+        Icon = TinCanEmpty,
+        MetalValue = 20,
+        StaticModel = CanOpen,
+        WorldStaticModel = TinCanGlassShards_Ground,
+    }
+
+    item TinCanWithGlassSand
+    {
+        DisplayCategory = Material,
+        Weight = 0.4,
+        Type = Normal,
+        DisplayName	= Tin Can Full Of Glass Sand,
+        Icon = TinCanEmpty,
+        MetalValue = 20,
+        StaticModel = CanOpen,
+        WorldStaticModel = TinCanGlassSand_Ground,
+    }
+
+    item TinCanWithGlassFixMix
+    {
+        DisplayCategory = Material,
+        Weight = 0.6,
+        Type = Normal,
+        DisplayName	= Tin Can With Glass Fix Mix,
+        Icon = TinCanEmpty,
+        MetalValue = 20,
+        StaticModel = CanOpen,
+        WorldStaticModel = TinCanGlassFixMix_Ground,
+    }
+
+
+}

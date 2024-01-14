@@ -1,0 +1,8 @@
+Tooltip_EN = {
+   Tooltip_Recipe_Unpack_Broken_Glass = "Could cause glass related injuries to hands",
+   Tooltip_Recipe_Pack_Broken_Glass = "Could cause glass related injuries to hands",
+   Tooltip_Recipe_Crush_And_Pack_Bottle = "Could cause glass related injuries to hands",
+   Tooltip_Recipe_Crush_Glass_Shards = "Could cause glass related injuries to hands",
+
+   Tooltip_item_MariAutoFixesMag = "Unofficial Loines recommendations on how to fix your Laines car at home for free!<br>Might work with other models too",
+}

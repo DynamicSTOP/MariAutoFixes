@@ -1,0 +1,100 @@
+VERSION = 1,
+
+option MariAutoFix.Evil
+{
+	type = boolean,
+	default = true,
+	page = MariAutoFix,
+	translation = MariAutoFix_Evil,
+}
+
+option MariAutoFix.XP_Multiplier
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default = 1,
+	page = MariAutoFix,
+	translation = MariAutoFix_XP_Multiplier,
+}
+
+option MariAutoFix.Glass_Repairable_Items
+{
+	type = string,
+	default=Windshield1;Windshield2;Windshield3;FrontWindow1;FrontWindow2;FrontWindow3;RearWindow1;RearWindow2;RearWindow3;RearWindshield1;RearWindshield2;RearWindshield3;,
+	page=MariAutoFix,
+	translation=MariAutoFix_Glass_Repairable_Items,
+}
+
+option MariAutoFix.Glass_Repairable_Experimental
+{
+	type = boolean,
+    default = false,
+    page = MariAutoFix,
+    translation = MariAutoFix_Glass_Repairable_Experimental,
+}
+
+option MariAutoFix.Glass_Repairable_Exp_IgnoreTypes
+{
+	type = string,
+	default=,
+	page=MariAutoFix,
+	translation=MariAutoFix_Glass_Repairable_Exp_IgnoreTypes,
+}
+
+option MariAutoFix.Glass_Exp_SearchPositive
+{
+	type = string,
+	default=Windshield;SideWindow;windshield;sidewindow,
+	page=MariAutoFix,
+	translation=MariAutoFix_Glass_Exp_SearchPositive,
+}
+
+option MariAutoFix.Glass_Exp_SearchNegative
+{
+	type = string,
+	default=Armor;armor;,
+	page=MariAutoFix,
+	translation=MariAutoFix_Glass_Exp_SearchNegative,
+}
+
+option MariAutoFix.Glass_Restore_Margin_Per_Skill
+{
+	type = integer,
+	min = 0,
+	max = 1000,
+	default = 1,
+	page = MariAutoFix,
+	translation = MariAutoFix_Glass_Restore_Margin_Per_Skill,
+}
+
+option MariAutoFix.Glass_GlueMix_Restore_From
+{
+	type = integer,
+	min = 0,
+	max = 1000,
+	default = 0,
+	page = MariAutoFix,
+	translation = MariAutoFix_Glass_GlueMix_Restore_From,
+}
+
+option MariAutoFix.Glass_GlueMix_Restore_Max
+{
+	type = integer,
+	min = 0,
+	max = 1000,
+	default = 60,
+	page = MariAutoFix,
+	translation = MariAutoFix_Glass_GlueMix_Restore_Max,
+}
+
+option MariAutoFix.Glass_GlueMix_Restore_Step
+{
+	type = integer,
+	min = 1,
+	max = 1000,
+	default = 10,
+	page = MariAutoFix,
+	translation = MariAutoFix_Glass_GlueMix_Restore_Step,
+}
+

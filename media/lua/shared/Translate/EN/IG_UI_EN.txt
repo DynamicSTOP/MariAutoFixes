@@ -1,0 +1,11 @@
+IGUI_EN = {
+    IGUI_MariAutoFix_Injure_Light = "Ouch !",
+    IGUI_Injure_Medium = "Owww !",
+    IGUI_MariAutoFix_Injure_Rare = "TIS BUT A SCRATCH !",
+
+    IGUI_MariAutoFix_Fix_Glass_SubMenu = "Fix Glass",
+    IGUI_MariAutoFix_Fix_Glass_SubMenu_WGM = "With Glass Fix Mix",
+    IGUI_MariAutoFix_Fix_Glass_SubMenu_TGFGM = "Too Good For Glass Fix Mix",
+    IGUI_MariAutoFix_Fix_Glass_SubMenu_TBFGM = "Too Bad For Glass Fix Mix",
+    IGUI_MariAutoFix_Fix_Glass_SubMenu_NGM = "No Glass Fix Mix",
+}

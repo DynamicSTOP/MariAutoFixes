@@ -1,0 +1,16 @@
+module Base
+{
+    item MariAutoFixesMag
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Loines Auto Manual - Quick Repairs at Home,
+        Icon	=	MagazineMariAutoFixes,
+        TeachedRecipes  =   Crush Glass Shards;Make Glass Fix Mix,
+        ReplaceOnUse    =   MariAutoFixesMag,
+        Tooltip = Tooltip_item_MariAutoFixesMag,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineMariAutoFixesGround,
+    }
+}

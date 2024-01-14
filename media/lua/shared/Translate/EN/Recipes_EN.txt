@@ -1,0 +1,11 @@
+Recipes_EN = {
+    Recipe_Crush_And_Pack_Glasses = "Crush And Pack Glasses",
+    Recipe_Crush_And_Pack_Wine_Glasses = "Crush And Pack Wine Glasses",
+    Recipe_Crush_And_Pack_Glass = "Crush And Pack Glass",
+
+    Recipe_Pack_Broken_Glass = "Pack Broken Glass",
+    Recipe_Unpack_Broken_Glass = "Unpack Broken Glass",
+
+    Recipe_Crush_Glass_Shards = "Crush Glass Shards",
+    Recipe_Make_Glass_Fix_Mix = "Make Glass Fix Mix",
+}

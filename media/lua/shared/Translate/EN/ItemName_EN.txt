@@ -1,0 +1,6 @@
+ItemName_EN = {
+    ItemName_Base.TinCanWithGlassShards = "Tin Can Full Of Glass Shards",
+    ItemName_Base.TinCanWithGlassSand = "Tin Can Full Of Glass Sand",
+    ItemName_Base.TinCanWithGlassFixMix = "Tin Can With Glass Fix Mix",
+    ItemName_Base.MariAutoFixesMag = "Loines Auto Manual - Quick Repairs at Home",
+}
